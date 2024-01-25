@@ -1,0 +1,21 @@
+{
+  "title": "Mr",
+  "name": "Homer Simpson",
+  "email": "homersimpson2034@simpson.com",
+  "pass": "homerpasswordtest",
+  "birthday": {
+      "day": "12",
+      "month": "5",
+      "year": "1956"
+  },
+  "newsletter": "yes",
+  "optin": "no",
+  "company": "HJS Company",
+  "adress1": "Evergreen Terrace, 632, Springfield",
+  "adress2": "Evergreen Terrace, 632, Springfield",
+  "country": "United States",
+  "state": "Springfield",
+  "city": "Evergreen Terrace",
+  "zipcode": "97005",
+  "number": "9(999) 999-9999"
+}
