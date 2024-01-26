@@ -12,7 +12,8 @@ const SignupPage = {
     },
 
     signupShouldBeVisible: function(user){
-        cy.get(el.signupFormBeVisible).should('be.visible')
+        cy.get(el.signupFormBeVisible)
+            .should('be.visible')
     },
 
     fillForm: function(user){
@@ -42,9 +43,26 @@ const SignupPage = {
     },
 
     successfulTxtShouldBe: function(txt){
-        cy.get(el.successfulMessage).should('have.text', txt)
-    }
+        cy.get(el.successfulMessage)
+            .should('have.text', txt)
+    },
+
+    errorMessageShouldBe: function(text){
+        cy.get(el.errorMessage)
+            .should('have.text', text)
+    },
+
+    fillFormLogin: function(user){
+        cy.get('div[class="login-form"]')
+            .should('be.visible')
     
+        cy.get(el.inputLoginEmail).type(user.email)
+        cy.get(el.inputLoginPass).type(user.pass)
+    },
+
+    submitLoginForm: function(){
+        cy.get(el.submitLogin).click()
+    }
 }
 
 export default SignupPage

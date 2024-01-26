@@ -4,7 +4,8 @@ const HomePage = {
 
     go: function() {
         cy.visit('/')
-        cy.get(el.featuresItems).should('be.visible') 
+        cy.get(el.featuresItems)
+            .should('be.visible') 
     }
 
 }

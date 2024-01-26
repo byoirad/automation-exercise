@@ -1,21 +1,67 @@
 {
-  "title": "Mr",
-  "name": "Homer Simpson",
-  "email": "homersimpson2034@simpson.com",
-  "pass": "homerpasswordtest",
-  "birthday": {
-      "day": "12",
-      "month": "5",
-      "year": "1956"
+  "registerUser": {
+    "title": "Mr",
+    "name": "Homer Simpson",
+    "email": "homersimpson2034@simpson.com",
+    "pass": "homerpasswordtest",
+    "birthday": {
+        "day": "12",
+        "month": "5",
+        "year": "1956"
+    },
+    "newsletter": "yes",
+    "optin": "no",
+    "company": "HJS Company",
+    "adress1": "Evergreen Terrace, 632, Springfield",
+    "adress2": "Evergreen Terrace, 632, Springfield",
+    "country": "United States",
+    "state": "Springfield",
+    "city": "Evergreen Terrace",
+    "zipcode": "97005",
+    "number": "9(999) 999-9999"
   },
-  "newsletter": "yes",
-  "optin": "no",
-  "company": "HJS Company",
-  "adress1": "Evergreen Terrace, 632, Springfield",
-  "adress2": "Evergreen Terrace, 632, Springfield",
-  "country": "United States",
-  "state": "Springfield",
-  "city": "Evergreen Terrace",
-  "zipcode": "97005",
-  "number": "9(999) 999-9999"
+  
+  "duplicatedUser": {
+    "name": "Bart Simpson",
+    "email": "bartsimpson2024@simpson.com",
+    "pass": "bartpasswordtest",
+    "title": "Mr",
+    "birthday": {
+        "day": "1",
+        "month": "4",
+        "year": "1981"
+    },
+    "firstname": "Bart",
+    "lastname": "Simpson",
+    "company": "BS Company",
+    "address1": "Evergreen Terrace, 632, Springfield",
+    "address2": "Evergreen Terrace, 632, Springfield",
+    "country": "United States",
+    "zipcode": "97005",
+    "state": "Springfield",
+    "city": "Evergreen Terrace",
+    "number": "8(888) 888-8888"
+  },
+
+  "loginUser": {
+    "name": "Lisa Simpson",
+    "email": "lisasimpson2024@simpson.com",
+    "pass": "lisapasswordtest",
+    "title": "Mrs",
+    "birthday": {
+        "day": "9",
+        "month": "5",
+        "year": "1981"
+    },
+    "firstname": "Lisa",
+    "lastname": "Simpson",
+    "company": "LS Company",
+    "address1": "Evergreen Terrace, 632, Springfield",
+    "address2": "Evergreen Terrace, 632, Springfield",
+    "country": "United States",
+    "zipcode": "97005",
+    "state": "Springfield",
+    "city": "Evergreen Terrace",
+    "number": "7(777) 777-7777"
+  }
 }
