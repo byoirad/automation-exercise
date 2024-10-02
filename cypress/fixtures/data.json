@@ -1,0 +1,21 @@
+{
+  "name": "Homer Simpson",
+  "email": "homersimpsonemailtest1@gmail.com",
+  "title": "Mr",
+  "password": "password24",
+  "birthday": {
+      "day": "12",
+      "mouth": "May",
+      "year": "1956"
+  },
+  "newsletter": "no",
+  "optin": "yes",
+  "company": "The Simpsons",
+  "address1": "Evergreen Terrace, 632, Springfield",
+  "address2": "Evergreen Terrace, 632, Springfield",
+  "country": "United States",
+  "state": "Oregon",
+  "city": "Springfield",
+  "zipcode": "97049",
+  "mobile_number": "2011909844"
+}
