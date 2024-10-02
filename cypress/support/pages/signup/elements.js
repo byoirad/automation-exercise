@@ -24,5 +24,9 @@ exports.el = {
     inputMobilenumber: '#mobile_number',
     submitButton: 'button[data-qa="create-account"]',
     successfulMsg: 'h2[data-qa="account-created"] b',
+    errorMessage: 'div[class="signup-form"] p',
+    inputLoginEmail: 'input[data-qa="login-email"]',
+    inputLoginPassword: 'input[data-qa="login-password"]',
+    buttonLoginForm: 'button[data-qa="login-button"]'
 
 }

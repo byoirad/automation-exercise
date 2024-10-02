@@ -1,21 +1,63 @@
 {
-  "name": "Homer Simpson",
-  "email": "homersimpsonemailtest1@gmail.com",
-  "title": "Mr",
-  "password": "password24",
-  "birthday": {
-      "day": "12",
-      "mouth": "May",
-      "year": "1956"
+  "registerUser": {
+    "name": "Homer Simpson",
+    "email": "homersimpsonemailtest1@gmail.com",
+    "title": "Mr",
+    "password": "password24",
+    "birthday": {
+        "day": "12",
+        "mouth": "May",
+        "year": "1956"
+    },
+    "newsletter": "no",
+    "optin": "yes",
+    "company": "The Simpsons",
+    "address1": "Evergreen Terrace, 632, Springfield",
+    "address2": "Evergreen Terrace, 632, Springfield",
+    "country": "United States",
+    "state": "Oregon",
+    "city": "Springfield",
+    "zipcode": "97049",
+    "mobile_number": "2011909844"
   },
-  "newsletter": "no",
-  "optin": "yes",
-  "company": "The Simpsons",
-  "address1": "Evergreen Terrace, 632, Springfield",
-  "address2": "Evergreen Terrace, 632, Springfield",
-  "country": "United States",
-  "state": "Oregon",
-  "city": "Springfield",
-  "zipcode": "97049",
-  "mobile_number": "2011909844"
+
+  "duplicatedUser": {
+    "name": "Bart Simpson",
+    "email": "bartsimpsonemailtest1@gmail.com",
+    "password": "password25",
+    "title": "Mr",
+    "birth_date": "01",
+    "birth_month": "April",
+    "birth_year": "1980",
+    "firstname": "Bart",
+    "lastname": "Simpson",
+    "company": "The Simpsons CO",
+    "address1": "Evergreen Terrace, 632, Springfield",
+    "address2": "Evergreen Terrace, 632, Springfield",
+    "country": "United States",
+    "zipcode": "97049",
+    "state": "Oregon",
+    "city": "Springfield",
+    "mobile_number": "1912908933"
+  },
+
+  "loginUser": {
+    "name": "Lisa Simpson",
+    "email": "lisasimpsonemailtest1@gmail.com",
+    "password": "password26",
+    "title": "Mrs",
+    "birth_date": "09",
+    "birth_month": "May",
+    "birth_year": "1982",
+    "firstname": "Lisa",
+    "lastname": "Simpson",
+    "company": "The Simpsons CO",
+    "address1": "Evergreen Terrace, 632, Springfield",
+    "address2": "Evergreen Terrace, 632, Springfield",
+    "country": "United States",
+    "zipcode": "97049",
+    "state": "Oregon",
+    "city": "Springfield",
+    "mobile_number": "1811898832"
+  }
 }

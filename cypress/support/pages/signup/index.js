@@ -45,6 +45,20 @@ const SignupPage = {
 
     successfulTxtShouldBeVisible: function(txt) {
         cy.get(el.successfulMsg).should('have.text', txt)
+    },
+
+    errorMessageShouldBe: function(text) {
+        cy.get(el.errorMessage)
+            .should('have.text', text)
+    },
+
+    fillFormLogin: function(user) {
+        cy.get(el.inputLoginEmail).type(user.email)
+        cy.get(el.inputLoginPassword).type(user.password)
+    },
+
+    submitLoginForm: function() {
+        cy.get(el.buttonLoginForm).click()
     }
 
 }
